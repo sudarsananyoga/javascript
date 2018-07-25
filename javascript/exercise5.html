@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Delete a property from an object</title>
+</head>
+<body>
+<script>
+var student =  { 
+  name : "David Rayy", 
+  sclass : "VI", 
+  rollno : 12  };
+
+document.write(student.name + ' - ' + student.sclass + ' - ' + student.rollno);
+var deletedProp = delete student.rollno;
+document.write(student.name + ' - ' + student.sclass + ' - ' + deletedProp);
+</script>
+</body>
+</html>
